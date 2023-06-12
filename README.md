@@ -1,8 +1,8 @@
 ---
 title:
-- ${1: ODM}
+- ODM
 author:
-- ${2: Tomáš Přibil}
+- Tomáš Přibil
 papersize:
 - a4
 fontsize:
