@@ -54,7 +54,7 @@
   - re - Modul regulárních výrazů v Pythonu, který je součástí standardní knihovny, byl použit k odstranění určitých znaků z datového řetězce, než byl převeden na datum.
 
 ## 5. Vizualizace v Metabase
-- Pro vizualizaci zpracovaných dat jsem použil nástroj Metabase.
+- Pro vizualizaci zpracovaných dat byl použit nástroj Metabase.
 ### 5.1. Rozdělení káv podle země původu
 ![Country of Origin](pictures/Country%20of%20Origin.png)
 ### 5.2. Průměrné hodnocení káv podle země původu
