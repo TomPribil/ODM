@@ -1,19 +1,25 @@
 <!-- OLAP Metabase
 ===============
-*Tomáš Přibil*
----------------
+
 *Univerzita Jana Evangelisty Purkyně*
 ---------------
-*Katedra Informatiky*
+
+*Katedra informatiky*
 ---------------
+
 *2022/2023*
+---------------
+
+*Tomáš Přibil*
+---------------
+
+*Aplikovaná informatika*
 --------------- -->
+
 
 <div style="page-break-after: always;"></div>
 
 # Obsah
-
-
 - [Obsah](#obsah)
   - [1. Databázový server](#1-databázový-server)
   - [2. Výběr datové sady](#2-výběr-datové-sady)
