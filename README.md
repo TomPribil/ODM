@@ -7,6 +7,7 @@
   - [3. Vytvoření multidimenzionální datové kostky](#3-vytvoření-multidimenzionální-datové-kostky)
     - [Tabulky dimenzí](#tabulky-dimenzí)
     - [Tabulka faktů](#tabulka-faktů)
+  - [Naplnění databáze daty](#naplnění-databáze-daty)
 
 ## 1. Databázový server
 - Pro zpracování a maniplaci s daty byla použita databáze MySQL a pro správu byl použit nástroj phpMyAdmin.
@@ -20,7 +21,7 @@
 - Data v csv formátu jsou dostupná na serveru Kaggle na následujícím [odkazu](https://www.kaggle.com/datasets/fatihb/coffee-quality-data-cqi?resource=download).
 
 ## 3. Vytvoření multidimenzionální datové kostky
-![Struktura databáze](schema.png)
+![Struktura databáze](pictures/schema.png)
 - CSV soubor obsahoval různé druhy informací týkající se kávových hodnocení. Cílem bylo tyto informace přerozdělit do tabulek dimenzí a tabulky faktů. Struktura databáze byla vytvořena dle struktury hvězdy.
 - Výsledná databáze obsahuje 7 tabulek dimenzí.
 ### Tabulky dimenzí
@@ -37,3 +38,10 @@
      -  ID, Farm_ID, Characteristics_ID, Harvest_ID, Company_ID, Bag_ID, Defect_ID
     -  hodnoty hodnocení kávy
        -  Total_Cup_Points, Aroma, Flavor, Aftertaste, Acidity, Body, Balance, Uniformity, Clean_Cup, Sweetness, Overall, Defects a Moisture_Percentage.
+## Naplnění databáze daty
+- Pro naplnění databáze byl použit skript napsaný v jazyce Python.
+- použité knihovny:
+  - csv - Knihovna určená pro práci s csv soubory.
+  - pymysql - Rozhraní pro připojení k MySQL databázi z Pythonu. V tomto skriptu byla použita pro vytvoření spojení s databází a pro odeslání SQL příkazů pro vložení dat.
+  - datetime - Knihovna, která poskytuje třídy pro manipulaci s daty a časy. Byla použita pro konverzi textových řetězců na datum
+  - re - Modul regulárních výrazů v Pythonu, který je součástí standardní knihovny, byl použit k odstranění určitých znaků z datového řetězce, než byl převeden na datum.
