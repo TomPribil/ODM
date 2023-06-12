@@ -1,23 +1,19 @@
----
-title:
-- ODM
-author:
-- Tomáš Přibil
-papersize:
-- a4
-fontsize:
-- 12pt
-geometry:
-- margin=1in
-fontfamily:
-- charter
-header-includes:
-- \setlength\parindent{24pt}
----
+OLAP Metabase <!-- omit in toc -->
+===============
+*Tomáš Přibil*
+---------------
+*Univerzita Jana Evangelisty Purkyně*
+---------------
+*Katedra Informatiky*
+---------------
+*2022/2023*
+---------------
 
-<div style="page-break-after: always"></div>
+<div style="page-break-after: always;"></div>
 
 # Obsah
+
+
 - [Obsah](#obsah)
   - [1. Databázový server](#1-databázový-server)
   - [2. Výběr datové sady](#2-výběr-datové-sady)
@@ -26,12 +22,14 @@ header-includes:
     - [3.2. Tabulka faktů](#32-tabulka-faktů)
   - [4. Naplnění databáze daty](#4-naplnění-databáze-daty)
   - [5. Vizualizace v Metabase](#5-vizualizace-v-metabase)
-    - [5.1. Rozdělení káv podle země původu](#51-rozdělení-káv-podle-země-původu)
-    - [5.2. Průměrné hodnocení káv podle země původu](#52-průměrné-hodnocení-káv-podle-země-původu)
-    - [5.3. Průměrné hodnocení káv dle odrůdy](#53-průměrné-hodnocení-káv-dle-odrůdy)
-    - [5.4.Průměrné hodnocení káv dle nadmořské výšky](#54průměrné-hodnocení-káv-dle-nadmořské-výšky)
-    - [5.5. Průměrné hodnocení dle roku rklizně](#55-průměrné-hodnocení-dle-roku-rklizně)
-    - [5.6. Průměrné hodnocení káv dle počtu quakerů (poškozená zrna)](#56-průměrné-hodnocení-káv-dle-počtu-quakerů-poškozená-zrna)
+    - [5.1. Rozdělení káv podle země původu ](#51-rozdělení-káv-podle-země-původu)
+    - [5.2. Průměrné hodnocení káv podle země původu ](#52-průměrné-hodnocení-káv-podle-země-původu)
+    - [5.3. Průměrné hodnocení káv dle odrůdy ](#53-průměrné-hodnocení-káv-dle-odrůdy)
+    - [5.4.Průměrné hodnocení káv dle nadmořské výšky ](#54průměrné-hodnocení-káv-dle-nadmořské-výšky)
+    - [5.5. Průměrné hodnocení dle roku sklizně ](#55-průměrné-hodnocení-dle-roku-sklizně)
+    - [5.6. Průměrné hodnocení káv dle počtu quakerů (poškozená zrna) ](#56-průměrné-hodnocení-káv-dle-počtu-quakerů-poškozená-zrna)
+
+<div style="page-break-after: always;"></div>
 
 ## 1. Databázový server
 - Pro zpracování a maniplaci s daty byla použita databáze MySQL a pro správu byl použit nástroj phpMyAdmin.
@@ -70,17 +68,18 @@ header-includes:
   - datetime - Knihovna, která poskytuje třídy pro manipulaci s daty a časy. Byla použita pro konverzi textových řetězců na datum
   - re - Modul regulárních výrazů v Pythonu, který je součástí standardní knihovny, byl použit k odstranění určitých znaků z datového řetězce, než byl převeden na datum.
 
+<div style="page-break-after: always;"></div>
+
 ## 5. Vizualizace v Metabase
 - Pro vizualizaci zpracovaných dat byl použit nástroj Metabase.
-### 5.1. Rozdělení káv podle země původu
-![Country of Origin](pictures/Country%20of%20Origin.png)
-### 5.2. Průměrné hodnocení káv podle země původu
-![Coffee Ratings by Country](pictures/Coffee%20Rating%20by%20Country.png)
-### 5.3. Průměrné hodnocení káv dle odrůdy
-![Coffee Ratings by Variety](pictures/Coffe%20Rating%20by%20Variety.png)
-### 5.4.Průměrné hodnocení káv dle nadmořské výšky
-![Coffee Ratings by Altitude](pictures/Coffee%20Rating%20by%20Altitude.png)
-### 5.5. Průměrné hodnocení dle roku rklizně
-![Coffee Ratings by Harvest Year](pictures/Coffee%20Rating%20by%20Harvest%20Year.png)
-### 5.6. Průměrné hodnocení káv dle počtu quakerů (poškozená zrna)
-![Coffee Ratings by Number of Quakers](pictures/Coffee%20Ratings%20by%20Number%20of%20Quakers.png)
+### 5.1. Rozdělení káv podle země původu&nbsp;![Country of Origin](pictures/Country%20of%20Origin.png)
+
+### 5.2. Průměrné hodnocení káv podle země původu&nbsp;![Coffee Ratings by Country](pictures/Coffee%20Rating%20by%20Country.png)
+
+### 5.3. Průměrné hodnocení káv dle odrůdy&nbsp;![Coffee Ratings by Variety](pictures/Coffe%20Rating%20by%20Variety.png)
+
+### 5.4.Průměrné hodnocení káv dle nadmořské výšky&nbsp;![Coffee Ratings by Altitude](pictures/Coffee%20Rating%20by%20Altitude.png)
+
+### 5.5. Průměrné hodnocení dle roku sklizně&nbsp;![Coffee Ratings by Harvest Year](pictures/Coffee%20Rating%20by%20Harvest%20Year.png)
+
+### 5.6. Průměrné hodnocení káv dle počtu quakerů (poškozená zrna)&nbsp;![Coffee Ratings by Number of Quakers](pictures/Coffee%20Ratings%20by%20Number%20of%20Quakers.png)
