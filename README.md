@@ -1,4 +1,4 @@
-OLAP Metabase <!-- omit in toc -->
+<!-- OLAP Metabase
 ===============
 *Tomáš Přibil*
 ---------------
@@ -7,7 +7,7 @@ OLAP Metabase <!-- omit in toc -->
 *Katedra Informatiky*
 ---------------
 *2022/2023*
----------------
+--------------- -->
 
 <div style="page-break-after: always;"></div>
 
